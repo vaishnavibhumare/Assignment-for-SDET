@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.Assignment">
+      <class name="selenium_practice2.Assignment">
         <methods>
-          <include name="Init"/>
-          <include name="testInsertAndVerifyData"/>
+          <include name="tableValidate"/>
           <include name="tearDown"/>
+          <include name="Init"/>
         </methods>
-      </class> <!-- selenium.Assignment -->
+      </class> <!-- selenium_practice2.Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

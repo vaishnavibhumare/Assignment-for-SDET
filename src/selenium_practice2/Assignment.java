@@ -58,6 +58,9 @@ public void tableValidate() throws InterruptedException {
 
 	        // Retrieve Table Data
 	        WebElement tableCell = driver.findElement(By.xpath("//table[@id='dtable']/tbody/tr"));
+	        
+	        
+	        
 	        String tableData = tableCell.getText();
 
 	        // Assertions
